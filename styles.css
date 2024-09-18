@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+input.invalid {
+    border: 2px solid red;
+}
+#high-five {
+    display: none;
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+}
